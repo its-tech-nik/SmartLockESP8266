@@ -18,3 +18,5 @@ desk, so I don’t need to stand to open the door.
 ![20171001_221447](https://user-images.githubusercontent.com/12739793/31088654-5b3e82e6-a799-11e7-9939-c0adaeb10193.jpg)
 
 Now that the lock is working with the keypad is time to add some Wifi capabilities. The aim is to create a lock, which I will be able to unlock it from a my smartphone with a http widget, use an Amazon dash button and try to create an application or widget to be able to lock and unlock the door through my computer.
+
+Before I start adding Wifi capabilities, I need to check the voltage of the external battery pack, the servo is using as its power source, in order to be able to send a notification in the phone for low battery. This is the link, which I will use https://startingelectronics.org/articles/arduino/measuring-voltage-with-arduino/.
